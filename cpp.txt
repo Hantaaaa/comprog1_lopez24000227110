@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{    
+string name;  
+string birthday;
+int age;
+string address;
+
+    cout <<("Input your name here: ");
+    cin >> name;
+    
+    cout <<("Input your birthday here: ");
+    cin >> birthday;
+    
+    cout <<("Input your age here: ");
+    cin >> age;
+    
+    cout <<("Input your address here: ");
+    cin >> address;
+    
+    cout << "My name is " << name << " My birthday is on " << birthday << " and currently I am " << age << " I live in " << address; 
+
+return 0; 
+}
